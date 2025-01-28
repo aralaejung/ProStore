@@ -1,5 +1,5 @@
 // const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-import ProductList from '@/components/products/product-list';
+import ProductList from '@/components/shared/products/product-list';
 import { getLatestProducts } from '@/lib/actions/product.action';
 
 const HomePage = async () => {
