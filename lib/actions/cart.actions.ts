@@ -1,6 +1,6 @@
 'use server';
 import { cookies } from 'next/headers';
-import { Cart, CartItem } from '@/types';
+import { CartItem } from '@/types';
 import { convertToPlainObject, formatError, round2 } from '../utils';
 import { auth } from '@/auth';
 import { prisma } from '@/db/prisma';

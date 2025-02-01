@@ -2,7 +2,7 @@
 import { useRouter } from 'next/navigation';
 import { useToast } from '@/hooks/use-toast';
 import { useTransition } from 'react';
-import { addItemToCart, removeItemFromCart } from '@/lib/actions/cart.action';
+import { addItemToCart, removeItemFromCart } from '@/lib/actions/cart.actions';
 import { ArrowRight, Loader, Minus, Plus } from 'lucide-react';
 import { Cart } from '@/types';
 import Link from 'next/link';

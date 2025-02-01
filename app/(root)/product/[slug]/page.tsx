@@ -6,7 +6,7 @@ import { Badge } from '@/components/ui/badge';
 import { notFound } from 'next/navigation';
 import ProductImage from '@/components/shared/products/product-image';
 import AddToCard from '@/components/shared/products/add-to-card';
-import { getMyCart } from '@/lib/actions/cart.action';
+import { getMyCart } from '@/lib/actions/cart.actions';
 
 const ProductDetailsPage = async (props: {
   params: Promise<{ slug: string }>;
